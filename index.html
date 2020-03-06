@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+.form-design {
+    width: 450px;
+    border: 1px solid;
+	 margin-top: 15px;
+}
+	
+</style>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+	<a href="#" class="navbar-brand">home</a>
+</nav>	
+
+	<div class="d-flex justify-content-center">
+	<div class="form-design" style="">
+		<ul class="nav nav-tabs" style="">
+			<li class="nav-item">
+				<a href="#login" class="nav-link " data-toggle="tab">login</a>
+			</li>
+			
+				<li class="nav-item">
+				<a href="#registration" class="nav-link" data-toggle="tab">Registration</a>
+			</li>
+		</ul>
+		
+		<div class="tab-content" id="mytab">
+			
+			<div class="tab-pane active fade show" id="login">
+				<div class="formdesign jumbotron ">
+				  <h3 class="text-center">login</h3>
+					<div class="form-group">
+						<label>Frist name</label>
+						<input type="text" class="form-control" placeholder="enter user name">
+						
+					</div>
+					<div class="form-group">
+						<label>last name</label>
+						<input type="text" class="form-control" placeholder="enter user name">
+						
+					</div>
+					
+					<div class="form-group">
+						<button type="button" class="btn btn-success mr-3">login</button>
+										<button type="button" class="btn btn-danger mr-3">cancel</button>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="tab-pane fade show" id="registration">
+				<div class="formdesign jumbotron ">
+				 <h3 class="text-center">Add user</h3>
+					<div class="form-group">
+						<label>frist name</label>
+						<input type="text" class="form-control" placeholder="enter user name">
+						
+					</div>
+					<div class="form-group">
+						<label>last name</label>
+						<input type="text" class="form-control" placeholder="enter user name">
+						
+					</div>
+	      
+					<div class="form-group">
+						<label>Email id</label>
+						<input type="email" class="form-control" placeholder="enter user name">
+						
+					</div>
+	
+				 <div class="form-group">
+						<label>mobile number</label>
+						<input type="text" class="form-control" placeholder="enter user name">
+						
+					</div>
+						
+																	
+					<div class="form-group">
+						<button type="button" class="btn btn-success mr-3">submit</button>
+										<button type="button" class="btn btn-danger mr-3">cancel</button>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+	</div>
+	
+	<script src="js/jquery-.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
